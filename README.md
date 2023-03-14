@@ -18,13 +18,43 @@ Link - https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 
 Output:
+
+
+
+
+
 1. Random forest:
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/62478652/224862182-854e4c0f-2057-43d8-86f2-1728ff63dc3a.png)
 2.AdaBoost
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/62478652/224862262-449ab136-374e-49db-b7e6-c40b82cdf5d4.png)
 3.Decision Tree
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/62478652/224862332-43982d0a-e9e3-4383-8c9a-e48eb613eab2.png)
 4.KNN
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/62478652/224862376-b03f4534-58d8-4394-abb9-588e0c719cbe.png)
 5.SVM
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/62478652/224862432-41af0808-97ac-472a-8413-6f2164d2ebf8.png)
