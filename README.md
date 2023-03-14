@@ -15,3 +15,7 @@ SMS messages that are labeled as either "ham" or "spam". It consists of 5,572 SM
 messages in total, with 4,827 messages labeled as "ham" and 747 messages labeled
 as "spam".
 Link - https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+
+Output
+![image](https://user-images.githubusercontent.com/62478652/224860783-556a5c8e-0545-4b8a-b359-c0f46c59c050.png)
