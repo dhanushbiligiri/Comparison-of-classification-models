@@ -59,6 +59,11 @@ Output:
 
 
 ![image](https://user-images.githubusercontent.com/62478652/224862332-43982d0a-e9e3-4383-8c9a-e48eb613eab2.png)
+
+
+
+
+
 4.KNN
 
 
