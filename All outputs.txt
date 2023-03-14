@@ -1,0 +1,223 @@
+--- Random Forest ---
+Accuracy using PCA: 0.9282511210762332
+Classification report using PCA:
+              precision    recall  f1-score   support
+
+         ham       0.94      0.98      0.96       966
+        spam       0.82      0.59      0.69       149
+
+    accuracy                           0.93      1115
+   macro avg       0.88      0.79      0.82      1115
+weighted avg       0.92      0.93      0.92      1115
+
+Confusion matrix using PCA:
+[[947  19]
+ [ 61  88]]
+Accuracy using RFE: 0.9443946188340807
+Classification report using RFE:
+              precision    recall  f1-score   support
+
+         ham       0.94      1.00      0.97       966
+        spam       0.98      0.60      0.74       149
+
+    accuracy                           0.94      1115
+   macro avg       0.96      0.80      0.86      1115
+weighted avg       0.95      0.94      0.94      1115
+
+Confusion matrix using RFE:
+[[964   2]
+ [ 60  89]]
+Accuracy using chi-squared test: 0.979372197309417
+Classification report using chi-squared test:
+              precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99       966
+        spam       1.00      0.85      0.92       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+Confusion matrix using chi-squared test:
+[[966   0]
+ [ 23 126]]
+
+
+--- AdaBoost ---
+Accuracy using PCA: 0.8681614349775785
+Classification report using PCA:
+              precision    recall  f1-score   support
+
+         ham       0.87      0.99      0.93       966
+        spam       0.55      0.07      0.13       149
+
+    accuracy                           0.87      1115
+   macro avg       0.71      0.53      0.53      1115
+weighted avg       0.83      0.87      0.82      1115
+
+Confusion matrix using PCA:
+[[957   9]
+ [138  11]]
+Accuracy using RFE: 0.9443946188340807
+Classification report using RFE:
+              precision    recall  f1-score   support
+
+         ham       0.94      1.00      0.97       966
+        spam       0.98      0.60      0.74       149
+
+    accuracy                           0.94      1115
+   macro avg       0.96      0.80      0.86      1115
+weighted avg       0.95      0.94      0.94      1115
+
+Confusion matrix using RFE:
+[[964   2]
+ [ 60  89]]
+Accuracy using chi-squared test: 0.9721973094170404
+Classification report using chi-squared test:
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.98       966
+        spam       0.93      0.86      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.92      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+Confusion matrix using chi-squared test:
+[[956  10]
+ [ 21 128]]
+
+
+--- Decision Tree ---
+Accuracy using PCA: 0.8896860986547085
+Classification report using PCA:
+              precision    recall  f1-score   support
+
+         ham       0.94      0.93      0.94       966
+        spam       0.58      0.64      0.61       149
+
+    accuracy                           0.89      1115
+   macro avg       0.76      0.79      0.77      1115
+weighted avg       0.90      0.89      0.89      1115
+
+Confusion matrix using PCA:
+[[896  70]
+ [ 53  96]]
+Accuracy using RFE: 0.9443946188340807
+Classification report using RFE:
+              precision    recall  f1-score   support
+
+         ham       0.94      1.00      0.97       966
+        spam       0.98      0.60      0.74       149
+
+    accuracy                           0.94      1115
+   macro avg       0.96      0.80      0.86      1115
+weighted avg       0.95      0.94      0.94      1115
+
+Confusion matrix using RFE:
+[[964   2]
+ [ 60  89]]
+Accuracy using chi-squared test: 0.9748878923766816
+Classification report using chi-squared test:
+              precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99       966
+        spam       0.97      0.84      0.90       149
+
+    accuracy                           0.97      1115
+   macro avg       0.97      0.92      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+Confusion matrix using chi-squared test:
+[[962   4]
+ [ 24 125]]
+
+
+--- KNN ---
+Accuracy using PCA: 0.8923766816143498
+Classification report using PCA:
+              precision    recall  f1-score   support
+
+         ham       0.92      0.96      0.94       966
+        spam       0.64      0.46      0.53       149
+
+    accuracy                           0.89      1115
+   macro avg       0.78      0.71      0.74      1115
+weighted avg       0.88      0.89      0.88      1115
+
+Confusion matrix using PCA:
+[[927  39]
+ [ 81  68]]
+Accuracy using RFE: 0.9443946188340807
+Classification report using RFE:
+              precision    recall  f1-score   support
+
+         ham       0.94      1.00      0.97       966
+        spam       0.98      0.60      0.74       149
+
+    accuracy                           0.94      1115
+   macro avg       0.96      0.80      0.86      1115
+weighted avg       0.95      0.94      0.94      1115
+
+Confusion matrix using RFE:
+[[964   2]
+ [ 60  89]]
+Accuracy using chi-squared test: 0.9255605381165919
+Classification report using chi-squared test:
+              precision    recall  f1-score   support
+
+         ham       0.92      1.00      0.96       966
+        spam       1.00      0.44      0.61       149
+
+    accuracy                           0.93      1115
+   macro avg       0.96      0.72      0.79      1115
+weighted avg       0.93      0.93      0.91      1115
+
+Confusion matrix using chi-squared test:
+[[966   0]
+ [ 83  66]]
+
+
+--- SVM ---
+Accuracy using PCA: 0.8816143497757848
+Classification report using PCA:
+              precision    recall  f1-score   support
+
+         ham       0.88      0.99      0.94       966
+        spam       0.81      0.15      0.25       149
+
+    accuracy                           0.88      1115
+   macro avg       0.85      0.57      0.59      1115
+weighted avg       0.87      0.88      0.84      1115
+
+Confusion matrix using PCA:
+[[961   5]
+ [127  22]]
+Accuracy using RFE: 0.9443946188340807
+Classification report using RFE:
+              precision    recall  f1-score   support
+
+         ham       0.94      1.00      0.97       966
+        spam       0.98      0.60      0.74       149
+
+    accuracy                           0.94      1115
+   macro avg       0.96      0.80      0.86      1115
+weighted avg       0.95      0.94      0.94      1115
+
+Confusion matrix using RFE:
+[[964   2]
+ [ 60  89]]
+Accuracy using chi-squared test: 0.97847533632287
+Classification report using chi-squared test:
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       966
+        spam       0.91      0.93      0.92       149
+
+    accuracy                           0.98      1115
+   macro avg       0.95      0.96      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+Confusion matrix using chi-squared test:
+[[952  14]
+ [ 10 139]]

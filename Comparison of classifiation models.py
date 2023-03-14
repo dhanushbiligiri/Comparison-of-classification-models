@@ -63,17 +63,23 @@ for name, model in models.items():
     y_pred_pca = model.predict(X_test_pca)
     acc_pca = accuracy_score(y_test, y_pred_pca)
     print(f'Accuracy using PCA: {acc_pca}')
+    print(f'Classification report using PCA:\n{classification_report(y_test, y_pred_pca)}')
+    print(f'Confusion matrix using PCA:\n{confusion_matrix(y_test, y_pred_pca)}')
     
     # using RFE
     model.fit(X_train_rfe, y_train)
     y_pred_rfe = model.predict(X_test_rfe)
     acc_rfe = accuracy_score(y_test, y_pred_rfe)
     print(f'Accuracy using RFE: {acc_rfe}')
+    print(f'Classification report using RFE:\n{classification_report(y_test, y_pred_rfe)}')
+    print(f'Confusion matrix using RFE:\n{confusion_matrix(y_test, y_pred_rfe)}')
     
     # using chi-squared test
     model.fit(X_train_chi2, y_train)
     y_pred_chi2 = model.predict(X_test_chi2)
     acc_chi2 = accuracy_score(y_test, y_pred_chi2)
     print(f'Accuracy using chi-squared test: {acc_chi2}')
+    print(f'Classification report using chi-squared test:\n{classification_report(y_test, y_pred_chi2)}')
+    print(f'Confusion matrix using chi-squared test:\n{confusion_matrix(y_test, y_pred_chi2)}')
     
     print('\n')
