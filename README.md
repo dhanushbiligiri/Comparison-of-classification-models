@@ -8,13 +8,8 @@ selection and classification technique combination that produces the most accura
 classification of spam.
 
 Data Resources:
-We are interested in using is the SMSSpamCollection dataset
-which is a publicly available dataset for spam classification, which can be found on
-the UCI Machine Learning Repository or Kaggle. The dataset contains a collection of
-SMS messages that are labeled as either "ham" or "spam". It consists of 5,572 SMS
-messages in total, with 4,827 messages labeled as "ham" and 747 messages labeled
-as "spam".
-Link - https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+The csv file contains 5172 rows, each row for each email. There are 3002 columns. The first column indicates Email name. The name has been set with numbers and not recipients' name to protect privacy. The last column has the labels for prediction : 1 for spam, 0 for not spam. The remaining 3000 columns are the 3000 most common words in all the emails, after excluding the non-alphabetical characters/words. For each row, the count of each word(column) in that email(row) is stored in the respective cells. Thus, information regarding all 5172 emails are stored in a compact dataframe rather than as separate text files.
+Link - https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 
 
 Output:
